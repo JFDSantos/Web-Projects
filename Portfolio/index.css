@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-color: #037971;
+    overflow-x: hidden;
+}
+
+/* MAIN */
+
+main{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sobre{
+    width: 50%;
+    height: 700px;
+}
+
+.texto{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.sobre_titulo{
+    width: 100%;
+    height: auto;
+    margin: 25px;
+    font-size: 100pt;
+    text-align: center;
+    
+}
+.sobre_text{
+    width: 100%;
+    height: auto;
+    margin: 25px;
+    font-size: 20pt;
+    text-align: justify;
+    word-break: normal;
+}
+
+.eu{
+    display: block;
+    width: 50%;  
+}
+
+#homem{
+    max-width: 600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+}
+.image{
+    position: relative;
+    left: 270px;
+    top: 59px;
+}
+.circulo{
+    position: absolute;
+    width: 1080px;
+    height: 600px;
+    margin-top: 50px;
+    clip-path: circle();
+    background: #00BFB3;
+}
+
+.projetos{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.tittle_proj{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 100pt;
+}
+.projetos_a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.projetos_a li div{
+    width: 400px;
+    height: 560px;
+    box-shadow: 0 0 1em #023436;
+    margin: auto;
+    background-color: #00BFB3;
+}
+
+.tittle_hab{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 100pt;
+}
+.habilidades_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+li .linguagem{
+    text-align: center;
+}
+.linguagem{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.progress{
+    background-color: gray;
+}
